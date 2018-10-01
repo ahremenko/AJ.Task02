@@ -26,7 +26,7 @@ public class LoginCommand {
 
     private static final Logger logger = Logger.getLogger(LoginCommand.class);
 
-    @RequestMapping("/checkAge")
+    @RequestMapping(path = {"/checkAge", "/"})
     public String goToCheckAge(@RequestParam(value = "birthday", required = false) String enteredDate, Model model){
         logger.info("Show /checkAge...");
         StringBuffer msg = new StringBuffer(500 );
