@@ -1,0 +1,44 @@
+html, body{
+	margin-left:15px; margin-right:15px; 
+	padding:0px; 
+	font-family: Arial,sans-serif;
+}
+
+table {   
+	border-collapse:collapse;
+	border-bottom:1px solid gray;
+	font-family: Verdana,sans-serif;
+	width:100%;
+}
+ 
+th {
+	border-bottom:1px solid blue;
+	background:none repeat scroll 0 0 #d2d3dd;
+	padding:10px;
+	color: #FFFFFF;
+}
+
+tr {
+	border-top:1px solid gray;
+	text-align:center;	
+	
+}
+
+a {
+	font-family: Courier;
+	width:50%;
+}
+#trash {background: #8080ff}
+#header {width: 80%; margin-top: 0px; padding:3px 3px 3px 3px; border-bottom:1px solid gray}
+#menu {width: 80%; margin-left:0px; background-color: #c7e0ef  }
+#lang {text-align: right; padding:5px 5px 5px 5px;}
+#data {width: 80%; margin-left:0px }
+#footer {text-align: center; font-size: 0.7em}
+
+.error {
+	color: red; font-size: 0.7em
+}
+
+form {
+	margin-top: 10px;
+}
